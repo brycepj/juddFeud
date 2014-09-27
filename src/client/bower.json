@@ -1,0 +1,10 @@
+{
+  "name": "juddFeud-bowew",
+  "version": "1.0.0",
+  "main": {},
+  "dependencies": {
+    "angularjs": "~1.2.25",
+    "angular-strap": "~2.1.0",
+    "angular-ui-router": "~0.2.11"
+  }
+}

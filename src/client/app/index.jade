@@ -1,0 +1,20 @@
+doctype html
+head
+	title Hello this is a title
+	script(src='//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular.js')
+	script(src='//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.10/angular-ui-router.js')
+	script(src='//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js')
+	script(src='//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js')
+	script(src='//cdnjs.cloudflare.com/ajax/libs/angular-strap/2.0.0/angular-strap.js')
+	link(rel='stylesheet', href='//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css')
+body(ng-app='juddFeud')
+	.navbar.nav
+		a(ui-sref='help') Help!
+	//- TODO - insert a header ng-source 
+	div(ng-controller='QuizCtrl')
+		h1 {{tester}}
+		p This is a paragraph
+
+	div(ui-view)
+		h1 UI-VIEW
+	script(src="js/app.js")

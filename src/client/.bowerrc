@@ -1,0 +1,4 @@
+{
+    "directory": "../server/static/vendors",
+    "json": "bower.json"
+}
